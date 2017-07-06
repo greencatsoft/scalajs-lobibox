@@ -1,10 +1,10 @@
 package com.greencatsoft.lobibox
 
 import scala.scalajs.js
-import scala.scalajs.js.{ Dictionary, GlobalScope, UndefOr, | }
+import scala.scalajs.js.{ Dictionary, UndefOr, | }
 
-import MessageBox._
-import MessageBoxOptions._
+import com.greencatsoft.lobibox.MessageBox._
+import com.greencatsoft.lobibox.MessageBoxOptions._
 
 @js.native
 trait MessageBoxOptions[A <: MessageBox[A]] extends Options {

@@ -1,9 +1,9 @@
 package com.greencatsoft.lobibox
 
 import scala.scalajs.js
-import scala.scalajs.js.{ Dictionary, GlobalScope, UndefOr, | }
+import scala.scalajs.js.{ UndefOr, | }
 
-import NotificationOptions._
+import com.greencatsoft.lobibox.NotificationOptions._
 
 @js.native
 trait NotificationOptions extends Options with StyleOptions {

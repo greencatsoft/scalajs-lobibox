@@ -1,7 +1,7 @@
 package com.greencatsoft.lobibox
 
 import scala.scalajs.js
-import scala.scalajs.js.GlobalScope
+import scala.scalajs.js.annotation.JSGlobalScope
 
 @js.native
 trait Lobibox extends js.Object
@@ -9,7 +9,8 @@ trait Lobibox extends js.Object
   with NotificationDefaults with NotificationOperations
 
 @js.native
-object Lobibox extends GlobalScope {
+@JSGlobalScope
+object Lobibox extends js.Object {
 
   val Lobibox: Lobibox = js.native
 }

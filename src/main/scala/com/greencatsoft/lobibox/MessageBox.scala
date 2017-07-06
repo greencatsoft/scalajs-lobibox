@@ -1,7 +1,7 @@
 package com.greencatsoft.lobibox
 
 import scala.scalajs.js
-import scala.scalajs.js.{ Dictionary, GlobalScope }
+import scala.scalajs.js.Dictionary
 
 @js.native
 trait MessageBox[A <: MessageBox[A]] extends js.Object {
