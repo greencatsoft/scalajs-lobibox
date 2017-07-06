@@ -39,7 +39,8 @@ publishMavenStyle := true
 pomIncludeRepository := { _ => false }
 
 val scalaSettings = Seq(
-  scalaVersion := "2.11.7",
+  scalaVersion := "2.11.11",
+  crossScalaVersions := Seq("2.11.11", "2.12.1"),
   scalacOptions ++= Seq("-feature","-deprecation"),
   unmanagedSourceDirectories in Compile := (scalaSource in Compile).value :: Nil,
   unmanagedSourceDirectories in Test := (scalaSource in Test).value :: Nil)
