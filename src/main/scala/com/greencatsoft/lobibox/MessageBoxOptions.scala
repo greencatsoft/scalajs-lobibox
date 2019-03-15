@@ -89,6 +89,8 @@ object MessageBoxOptions {
   trait AlertOptions extends MessageBoxOptions[AlertMessageBox]
     with DialogOptions {
 
+    var msg: UndefOr[String] = js.native
+
     var warning: UndefOr[DialogOptions] = js.native
 
     var info: UndefOr[DialogOptions] = js.native
