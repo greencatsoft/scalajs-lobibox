@@ -24,7 +24,7 @@ trait NotificationOptions extends Options with StyleOptions {
 
   var closable: UndefOr[Boolean] = js.native
 
-  var delay: UndefOr[Int] = js.native
+  var delay: UndefOr[Int] | UndefOr[Boolean] = js.native
 
   var delayIndicator: UndefOr[Boolean] = js.native
 
